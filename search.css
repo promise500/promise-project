@@ -1,0 +1,25 @@
+body{
+    background-image: url(./image/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    margin-top: 25rem;
+}
+.search input{
+    width: 800px;
+    height: 50px;
+    color: #626262;
+    border-radius: 5px;
+    border: 1px solid #626262;
+}
+.search button{
+    width: 145px;
+    border-radius: 5px;
+    background-color: green;
+    margin-left: 1rem;
+}
